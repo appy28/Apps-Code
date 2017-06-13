@@ -1,0 +1,31 @@
+#ifndef CARDGAME_H
+#define CARDGAME_H
+
+enum CardRank
+{
+	RANK_TWO,
+	RANK_THREE,
+	RANK_FOUR,
+	RANK_FIVE,
+	RANK_SIX,
+	RANK_SEVEN,
+	RANK_EIGHT,
+	RANK_NINE,
+	RANK_TEN,
+	RANK_JACK,
+	RANK_QUEEN,
+	RANK_KING,
+	RANK_ACE,
+	MAX_RANK
+};
+
+enum CardSuit
+{
+	SUIT_CLUB,
+	SUIT_DIMOND,
+	SUIT_HEART,
+	SUIT_SPADE,
+	MAX_SUIT
+};
+
+#endif
